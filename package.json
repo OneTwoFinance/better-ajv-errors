@@ -1,8 +1,8 @@
 {
-  "name": "better-ajv-errors",
-  "version": "1.2.0",
+  "name": "@oneTwoFinance/better-ajv-errors",
+  "version": "1.2.1",
   "description": "JSON Schema validation for Human",
-  "repository": "atlassian/better-ajv-errors",
+  "repository": "OneTwoFinance/better-ajv-errors",
   "main": "./lib/cjs/index.js",
   "exports": {
     ".": {
@@ -19,12 +19,7 @@
     "ajv",
     "ajv-errors"
   ],
-  "author": "Rifat Nabi <to.rifat@gmail.com>",
-  "maintainers": [
-    "Rifat Nabi <to.rifat@gmail.com>",
-    "Dmitrii Sorin <info@staypositive.ru>",
-    "Tong Li"
-  ],
+  "author": "PK <prashanna.kailasanathan@onetwo.com.au>",
   "license": "Apache-2.0",
   "types": "./typings.d.ts",
   "files": [
