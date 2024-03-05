@@ -58,6 +58,7 @@ export default class EnumValidationError extends BaseValidationError {
     }
 
     const bestMatch = allowedValues
+      .filter(value => !!value) // OneTwo fix to ensure nulls don't cause an exception to be raised.
       .map(value => ({
         value,
         weight: leven(value, currentValue.toString()),
