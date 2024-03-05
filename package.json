@@ -1,5 +1,5 @@
 {
-  "name": "@oneTwoFinance/better-ajv-errors",
+  "name": "@onetwofinance/better-ajv-errors",
   "version": "1.2.1",
   "description": "JSON Schema validation for Human",
   "repository": "OneTwoFinance/better-ajv-errors",
